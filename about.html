@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <title>موقعي البسيط – عن الموقع</title>
+        <style>
+            :root { --bg:#0f172a; --card:#111827; --text:#e5e7eb; --muted:#94a3b8; --accent:#22d3ee; }
+                * { box-sizing: border-box; }
+                    body { margin:0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial; background: var(--bg); color: var(--text); }
+                        a { color: inherit; text-decoration: none; }
+                            .container { max-width: 980px; margin: 0 auto; padding: 16px; }
+                                header { position: sticky; top:0; backdrop-filter: blur(6px); background: #0f172ab3; border-bottom: 1px solid #1f2937; }
+                                    nav { display: flex; gap: 12px; align-items: center; justify-content: space-between; }
+                                        .brand { font-weight: 700; letter-spacing: .5px; }
+                                            .links a { padding: 10px 12px; border-radius: 10px; display: inline-block; }
+                                                .links a:hover { background: #1f2937; }
+                                                    .links a.active { background: var(--accent); color:#0b1324; font-weight: 700; }
+                                                        main { padding: 32px 0 48px; }
+                                                            h1 { margin: 0 0 12px; font-size: clamp(22px, 3.6vw, 36px); }
+                                                                p  { color: var(--muted); line-height: 1.9; }
+                                                                    .card { background: var(--card); border: 1px solid #1f2937; border-radius: 14px; padding: 16px; margin-top: 16px; }
+                                                                        ul { margin: 8px 0 0 0; padding: 0 18px; }
+                                                                            li { margin: 6px 0; color: var(--muted); }
+                                                                                footer { border-top: 1px solid #1f2937; color: var(--muted); }
+                                                                                    footer .container { padding: 18px 16px; font-size: 14px; }
+                                                                                      </style>
+                                                                                      </head>
+                                                                                      <body>
+                                                                                        <header>
+                                                                                            <div class="container">
+                                                                                                  <nav>
+                                                                                                          <div class="brand">موقعي البسيط</div>
+                                                                                                                  <div class="links">
+                                                                                                                            <a href="index.html">الرئيسية</a>
+                                                                                                                                      <a class="active" href="about.html">عن الموقع</a>
+                                                                                                                                                <a href="contact.html">تواصل</a>
+                                                                                                                                                        </div>
+                                                                                                                                                              </nav>
+                                                                                                                                                                  </div>
+                                                                                                                                                                    </header>
+
+                                                                                                                                                                      <main class="container">
+                                                                                                                                                                          <h1>عن هذا الموقع</h1>
+                                                                                                                                                                              <p>تم إنشاء هذا المثال ليوضح الحد الأدنى المطلوب لبناء موقع متعدد الصفحات:
+                                                                                                                                                                                     ترويسة وروابط، محتوى أساسي، وتذييل. عدّل النصوص والألوان كما تشاء.</p>
+
+                                                                                                                                                                                         <section class="card">
+                                                                                                                                                                                               <h2 style="margin:0 0 8px;">كيف تطوّره؟</h2>
+                                                                                                                                                                                                     <ul>
+                                                                                                                                                                                                             <li>انقل أنماط CSS المشتركة إلى ملف <code>style.css</code> لاحقًا لإعادة الاستخدام.</li>
+                                                                                                                                                                                                                     <li>أضف ملف <code>script.js</code> إن احتجت تفاعلية (قائمة هاتف، سلايدر…).</li>
+                                                                                                                                                                                                                             <li>استخدم مجلدات مثل <code>assets/</code> للصور والخطوط.</li>
+                                                                                                                                                                                                                                   </ul>
+                                                                                                                                                                                                                                       </section>
+                                                                                                                                                                                                                                         </main>
+
+                                                                                                                                                                                                                                           <footer>
+                                                                                                                                                                                                                                               <div class="container">© 2025 – مثال تعليمي</div>
+                                                                                                                                                                                                                                                 </footer>
+                                                                                                                                                                                                                                                 </body>
+                                                                                                                                                                                                                                                 </html>

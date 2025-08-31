@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <title>موقعي البسيط – الرئيسية</title>
+        <style>
+            :root { --bg:#0f172a; --card:#111827; --text:#e5e7eb; --muted:#94a3b8; --accent:#22d3ee; }
+                * { box-sizing: border-box; }
+                    body { margin:0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial; background: var(--bg); color: var(--text); }
+                        a { color: inherit; text-decoration: none; }
+                            .container { max-width: 980px; margin: 0 auto; padding: 16px; }
+                                header { position: sticky; top:0; backdrop-filter: blur(6px); background: #0f172ab3; border-bottom: 1px solid #1f2937; }
+                                    nav { display: flex; gap: 12px; align-items: center; justify-content: space-between; }
+                                        .brand { font-weight: 700; letter-spacing: .5px; }
+                                            .links a { padding: 10px 12px; border-radius: 10px; display: inline-block; }
+                                                .links a:hover { background: #1f2937; }
+                                                    .links a.active { background: var(--accent); color:#0b1324; font-weight: 700; }
+                                                        main { padding: 32px 0 48px; }
+                                                            .hero { text-align: center; padding: 40px 12px; }
+                                                                .hero h1 { margin: 0 0 12px; font-size: clamp(24px, 4vw, 40px); }
+                                                                    .hero p { margin: 0 auto 20px; max-width: 700px; color: var(--muted); line-height: 1.8; }
+                                                                        .btn { display: inline-block; padding: 12px 18px; border-radius: 12px; background: var(--accent); color:#0b1324; font-weight: 700; }
+                                                                            .grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); gap: 16px; margin-top: 24px; }
+                                                                                .card { background: var(--card); border: 1px solid #1f2937; border-radius: 14px; padding: 16px; }
+                                                                                    .card h3 { margin: 0 0 8px; font-size: 18px; }
+                                                                                        .card p { margin: 0; color: var(--muted); line-height: 1.8; }
+                                                                                            footer { border-top: 1px solid #1f2937; color: var(--muted); }
+                                                                                                footer .container { padding: 18px 16px; font-size: 14px; }
+                                                                                                  </style>
+                                                                                                  </head>
+                                                                                                  <body>
+                                                                                                    <header>
+                                                                                                        <div class="container">
+                                                                                                              <nav>
+                                                                                                                      <div class="brand">موقعي البسيط</div>
+                                                                                                                              <div class="links">
+                                                                                                                                        <a class="active" href="index.html">الرئيسية</a>
+                                                                                                                                                  <a href="about.html">عن الموقع</a>
+                                                                                                                                                            <a href="contact.html">تواصل</a>
+                                                                                                                                                                    </div>
+                                                                                                                                                                          </nav>
+                                                                                                                                                                              </div>
+                                                                                                                                                                                </header>
+
+                                                                                                                                                                                  <main class="container">
+                                                                                                                                                                                      <section class="hero">
+                                                                                                                                                                                            <h1>أهلًا بك 👋</h1>
+                                                                                                                                                                                                  <p>هذا مثال لموقع بسيط من ثلاث صفحات مستقلة. يمكنك تعديل النصوص والألوان بسهولة،
+                                                                                                                                                                                                           والروابط العلوية تنقلك بين الصفحات.</p>
+                                                                                                                                                                                                                 <a class="btn" href="about.html">اعرف أكثر</a>
+                                                                                                                                                                                                                     </section>
+
+                                                                                                                                                                                                                         <section class="grid">
+                                                                                                                                                                                                                               <article class="card">
+                                                                                                                                                                                                                                       <h3>هيكل بسيط</h3>
+                                                                                                                                                                                                                                               <p>HTML + CSS داخل كل صفحة بدون ملفات خارجية لتبسيط التجربة.</p>
+                                                                                                                                                                                                                                                     </article>
+                                                                                                                                                                                                                                                           <article class="card">
+                                                                                                                                                                                                                                                                   <h3>تصميم متناسق</h3>
+                                                                                                                                                                                                                                                                           <p>ترويسة ثابتة وروابط مفعّلة حسب الصفحة الحالية.</p>
+                                                                                                                                                                                                                                                                                 </article>
+                                                                                                                                                                                                                                                                                       <article class="card">
+                                                                                                                                                                                                                                                                                               <h3>متجاوب</h3>
+                                                                                                                                                                                                                                                                                                       <p>شبكة بطاقات تتكيّف مع أحجام الشاشات المختلفة.</p>
+                                                                                                                                                                                                                                                                                                             </article>
+                                                                                                                                                                                                                                                                                                                 </section>
+                                                                                                                                                                                                                                                                                                                   </main>
+
+                                                                                                                                                                                                                                                                                                                     <footer>
+                                                                                                                                                                                                                                                                                                                         <div class="container">© 2025 – مثال تعليمي</div>
+                                                                                                                                                                                                                                                                                                                           </footer>
+                                                                                                                                                                                                                                                                                                                           </body>
+                                                                                                                                                                                                                                                                                                                           </html>
